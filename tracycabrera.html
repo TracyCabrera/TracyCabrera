@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Tracy Gabrielle Cabrera</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="LOL-nav">
+      <div class="LOL-menu">
+        <div class="LOL-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+            <div class="text-container">
+              <p>
+                Hi there! I'm Tracy Gabrielle F. Cabrera, a student diving into the fascinating world of technology. Currently studying  at University of Pangasinan, my digital space is where I share my journey and discoveries in the realm of Information Technology.              </p>
+            </div>     
+        </div>
+      </section>
+      <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./assets/project.png"
+                  alt="Project"
+                  class="project-img"
+                />
+              </div> 
+              <div>
+                <h2 class="experience-sub-title project-title">Garadz</h2>
+                <p1>Garadz is an innovative online parking booking application designed to streamline the parking experience for users. With Garadz, users can easily find and reserve parking spaces conveniently from their mobile devices or computers. The app aims to address common parking challenges by providing a user-friendly platform that connects drivers with available parking spaces.</p1>
+              <div class="btn-container">                
+                <button class="btn btn-color-2 project-btn"
+                  onclick="location.href= 'https://github.com/TracyCabrera/Garadz2'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+
+            <p><a href="mailto:examplemail@gmail.com">trfr.cabrera.up@phinmaed.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="https://www.linkedin.com/in/tracy-gabrielle-cabrera-ba517b274/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Tracy Gabrielle Cabrera. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
